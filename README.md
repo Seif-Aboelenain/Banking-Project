@@ -1,9 +1,7 @@
 # 🏦 BankProj
-A basic banking REST API built with Java, Spring Boot, and Maven, featuring customer and account CRUD, customer-account relationships, deposits, withdrawals, and transactional transfers, with validation, centralized exception handling, PostgreSQL/JPA/Hibernate persistence, Spring Security authentication, and Postman API testing.
+A basic banking REST API built with **Java, Spring Boot, and Maven**, featuring customer and account CRUD operations, customer-account relationships, deposits, withdrawals, and transactional transfers, with validation, centralized exception handling, PostgreSQL persistence using **JPA/Hibernate**, Http Basic Authentication using Spring Security, and Postman API testing.
 
 
-
-A basic banking REST API built with **Java and Spring Boot** for managing customers and bank accounts. The project demonstrates CRUD operations, customer-account relationships, basic banking transactions, validation, exception handling, PostgreSQL persistence, and HTTP Basic authentication.
 
 ## Features
 
