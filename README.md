@@ -222,7 +222,7 @@ Make sure the following are installed:
 ### Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone 
 cd bankproj
 ```
 
