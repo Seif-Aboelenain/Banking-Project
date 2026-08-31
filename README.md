@@ -15,7 +15,7 @@ A basic banking REST API built with **Java, Spring Boot, and Maven**, featuring 
 * PostgreSQL persistence with JPA/Hibernate
 * HTTP Basic authentication
 * Environment-based configuration
-* API testing with Postman
+
 
 ## Tech Stack
 
