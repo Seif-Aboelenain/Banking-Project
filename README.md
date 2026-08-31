@@ -114,7 +114,6 @@ Custom exceptions handle cases such as:
 The API is secured using **Spring Security**.
 
 * **Authentication:** HTTP Basic Authentication
-* **Authorization:** All endpoints require authentication
 * **CSRF:** Disabled for the REST API
 * **Credentials:** Configured through environment variables
 * **Passwords:** Not hard-coded in the source code
