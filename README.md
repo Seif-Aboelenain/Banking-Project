@@ -205,13 +205,13 @@ Sensitive credentials are kept outside the source code.
 
 clone the repository
 
-Set the environment variables listed above (`DB_USERNAME`, `DB_PASSWORD`, `SECURITY_USERNAME`, `SECURITY_PASSWORD`), make sure PostgreSQL is running locally, then run the app 
+Set the environment variables listed above (`DB_USERNAME`, `DB_PASSWORD`, `SECURITY_USERNAME`, `SECURITY_PASSWORD`),
+then run the app 
 
-The API starts on `http://localhost:8080`.
 
 ## API Testing with Postman
 
-Import requests into Postman, set **Authorization → Basic Auth**, and enter your `SECURITY_USERNAME` / `SECURITY_PASSWORD`.
+Import requests into Postman, set **Authorization → Basic Auth**, and enter  `SECURITY_USERNAME` / `SECURITY_PASSWORD`.
 
 ## Author
 
