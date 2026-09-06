@@ -124,15 +124,7 @@ The project uses **PostgreSQL** with **Spring Data JPA and Hibernate** for persi
 
 ### Entity Relationship
 
-```text
-Customer
-   │
-   │ 1
-   │
-   │ N
-   ▼
-Account
-```
+
 
 A customer can have multiple accounts, while each account is associated with a customer.
 
