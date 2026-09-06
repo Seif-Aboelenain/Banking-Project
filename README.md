@@ -197,7 +197,7 @@ The application uses environment variables for database and security credentials
 | `SECURITY_USERNAME` | HTTP Basic username |
 | `SECURITY_PASSWORD` | HTTP Basic password |
 
-Sensitive credentials are kept outside the source code.
+
 
 ## Getting Started
 
