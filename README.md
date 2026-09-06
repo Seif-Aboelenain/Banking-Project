@@ -203,10 +203,7 @@ Sensitive credentials are kept outside the source code.
 
 **Prerequisites:** Java, Maven, PostgreSQL
 
-```bash
-git clone <repo-url>
-cd bankproj
-```
+clone the repository
 
 Set the environment variables listed above (`DB_USERNAME`, `DB_PASSWORD`, `SECURITY_USERNAME`, `SECURITY_PASSWORD`), make sure PostgreSQL is running locally, then run the app 
 
