@@ -201,60 +201,20 @@ Sensitive credentials are kept outside the source code.
 
 ## Getting Started
 
-### Prerequisites
-
-Make sure the following are installed:
-
-* Java
-* Maven
-* PostgreSQL
-* IntelliJ IDEA or another Java IDE
-
-### Clone the Repository
+**Prerequisites:** Java, Maven, PostgreSQL
 
 ```bash
-git clone 
+git clone <repo-url>
 cd bankproj
 ```
 
-### Configure Environment Variables
+Set the environment variables listed above (`DB_USERNAME`, `DB_PASSWORD`, `SECURITY_USERNAME`, `SECURITY_PASSWORD`), make sure PostgreSQL is running locally, then run the app 
 
-Set the following environment variables:
-
-```text
-DB_USERNAME=your_database_username
-DB_PASSWORD=your_database_password
-SECURITY_USERNAME=admin
-SECURITY_PASSWORD=your_password
-```
-
-### Configure PostgreSQL
-
-Make sure PostgreSQL is running and the database configuration in the project matches your local PostgreSQL setup.
-
-### Run the Application
-
-Open the project in **IntelliJ IDEA**, allow Maven to load the dependencies, and run:
-
-```text
-BankprojApplication.java
-```
-
-The application will start on:
-
-```text
-http://localhost:8080
-```
+The API starts on `http://localhost:8080`.
 
 ## API Testing with Postman
 
-1. Start the Spring Boot application.
-2. Open Postman.
-3. Select an API endpoint.
-4. Go to **Authorization**.
-5. Select **Basic Auth**.
-6. Enter the configured `SECURITY_USERNAME` and `SECURITY_PASSWORD`.
-7. Send the request and inspect the response.
+Import requests into Postman, set **Authorization → Basic Auth**, and enter your `SECURITY_USERNAME` / `SECURITY_PASSWORD`.
 
 ## Author
 
